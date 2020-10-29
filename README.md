@@ -4,23 +4,11 @@ This is a modified fork from ruizivo/GRBL-28byj-48-Servo.  This modification imp
 
 The motors (28byj-48) are connected to a controller card (Arduino UNO) that uses the chip ULN2003. This board is connected to pins.
 
-X-Axis
-IN1 -> D5, 
-IN2 -> D4, 
-IN3 -> D3, 
-IN4 -> D2
+X-Axis (IN1 ->  D5, IN2 ->  D4, IN3 -> D3, IN4 -> D2)
 
-Y-Axis
-IN1 -> A0, 
-IN2 -> A1, 
-IN3 -> A2, 
-IN4 -> A3
+Y-Axis (IN1 ->  A0, IN2 ->  A1, IN3 -> A2, IN4 -> A3)
 
-Z-Axis
-IN1 -> D13, 
-IN2 -> D12, 
-IN3 -> D9, 
-IN4 -> D8
+Z-Axis (IN1 -> D13, IN2 -> D12, IN3 -> D9, IN4 -> D8)
 
 This work was derived from:
 See https://github.com/ruizivo/GRBL-28byj-48-Servo
