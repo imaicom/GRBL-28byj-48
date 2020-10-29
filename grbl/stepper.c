@@ -435,25 +435,25 @@ ISR(TIMER1_COMPA_vect)
       costyy=costyy-1;
       if (costyy < 1) costyy=8;
       if (costyy==1)   PORTC=0B1000;
-      if (costyy==2)   PORTC=0B1100;
-      if (costyy==3)   PORTC=0B0100;
-      if (costyy==4)   PORTC=0B0110;
+      if (costyy==2)   PORTC=0B1001;
+      if (costyy==3)   PORTC=0B0001;
+      if (costyy==4)   PORTC=0B0011;
       if (costyy==5)  PORTC=0B0010;
-      if (costyy==6)  PORTC=0B0011;
-      if (costyy==7)  PORTC=0B0001;
-      if (costyy==8) PORTC=0B1001;
+      if (costyy==6)  PORTC=0B0110;
+      if (costyy==7)  PORTC=0B0100;
+      if (costyy==8) PORTC=0B1100;
     } else { 
       sys_position[Y_AXIS]++;
       costyy=costyy+1;
       if (costyy > 8) costyy=1;
       if (costyy==1)   PORTC=0B1000;
-      if (costyy==2)   PORTC=0B1100;
-      if (costyy==3)   PORTC=0B0100;
-      if (costyy==4)   PORTC=0B0110;
+      if (costyy==2)   PORTC=0B1001;
+      if (costyy==3)   PORTC=0B0001;
+      if (costyy==4)   PORTC=0B0011;
       if (costyy==5)  PORTC=0B0010;
-      if (costyy==6)  PORTC=0B0011;
-      if (costyy==7)  PORTC=0B0001;
-      if (costyy==8) PORTC=0B1001;
+      if (costyy==6)  PORTC=0B0110;
+      if (costyy==7)  PORTC=0B0100;
+      if (costyy==8) PORTC=0B1100;
     }
   }
   #ifdef ADAPTIVE_MULTI_AXIS_STEP_SMOOTHING
