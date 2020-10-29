@@ -18,7 +18,6 @@ The motors (28byj-48) are connected to a controller card (Arduino UNO or Nano) t
 |            |      D12     |IN2    |OUT2   |PINK    |
 |            |      D9      |IN3    |OUT3   |YELLOW  |
 |            |      D8      |IN4    |OUT4   |ORANGE  |
-|:----------:|:------------:|:-----:|:-----:|:------:|
 |            |              |       |+5V    |RED     |
 
 
