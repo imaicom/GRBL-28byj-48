@@ -2,7 +2,7 @@
 
 This is a modified fork from ruizivo/GRBL-28byj-48-Servo.  This modification implements all 3-axises XYZ to a 28BYJ-48 stepper motor.
 
-The motors (28byj-48) are connected to a controller card (Arduino UNO) that uses the chip ULN2003. This board is connected to pins.
+The motors (28byj-48) are connected to a controller card (Arduino UNO or Nano) that uses the chip ULN2003. This board is connected to pins.
 
 | Axis       | ULN2003     | Arduino      |
 |:-----------|------------:|:------------:|
